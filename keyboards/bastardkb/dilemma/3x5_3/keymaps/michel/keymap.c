@@ -51,7 +51,7 @@ enum dilemma_keymap_layers {
        KC_QUOT, KC_COMM ,KC_DOT,  KC_P,    KC_Y,    KC_F,    KC_G,    KC_C,    KC_R,    KC_L, \
        KC_A,    KC_O,    KC_E,    KC_U,    KC_I,    KC_D,    KC_H,    KC_T,    KC_N,    KC_S, \
        KC_SCLN, KC_Q,    KC_J,    KC_K,    KC_X,    KC_B,    KC_M,    KC_W,    KC_V,    KC_Z, \
-                      KC_ESC, TAB_FUN, BSP_NAV, ENT_SYM, SPC_NUM, KC_GRV
+                       KC_ESC, TAB_FUN, BSP_NAV, SPC_NUM, ENT_SYM,  KC_GRV
 
 /** Convenience row shorthands. */
 #define _______________DEAD_HALF_ROW_______________ XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX
@@ -101,7 +101,7 @@ enum dilemma_keymap_layers {
     _______________DEAD_HALF_ROW_______________, _______________DEAD_HALF_ROW_______________, \
     ______________HOME_ROW_GACS_L______________, KC_CAPS, KC_LEFT, KC_UP,   KC_DOWN, KC_RGHT, \
     _______________DEAD_HALF_ROW_______________, KC_INS, KC_HOME, KC_PGDN, KC_PGUP,  KC_END, \
-                      XXXXXXX, XXXXXXX, _______, KC_ENT, KC_BSPC, KC_DEL
+                      XXXXXXX, XXXXXXX, _______, KC_SPC, KC_ENT,  KC_DEL
 
 /**
  * \brief Numeral layout.
